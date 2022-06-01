@@ -1,0 +1,122 @@
+2) print_ALL_DIRECTORIES.PY
+
+C:\Users\issac\Documents\1dv501.03
+  01_Trash_.py
+  7_count_lines.py
+  9_letter_count.py
+  assign_03
+    10000_integers
+      file_10000integers_A.txt
+      file_10000integers_B.txt
+      G
+        11_MultiDisplayMain.py
+        12_deque_main.py
+        2_print_all_subdirectories.py
+        5_read_numbers.py
+        6_find_words.py
+        8_count_numbers.py
+        Deque.py
+        Deque_output.txt
+        G_ALL_Output.txt
+        MultiDisplay.py
+        large_texts
+          eng_news_100K-sentences.txt
+          eng_news_100K-sentences_Copy.txt
+          holy_grail.txt
+          holy_grail_Copy.txt
+          VG
+            3_pretty_print_subdirectories.py
+            READme.txt
+            new.py
+            try.py
+
+
+5)READ_NUMBERS.PY
+
+C:\Users\issac\Documents\1dv501.03
+C:\Users\issac\Documents\1dv501.03\assign_03\10000_integers\file_10000integers_A.txt
+10000integers_A: 
+Mean 250.139
+Std 69.4854609180943
+
+10000integers_B:
+Mean 11.0053
+std 100.73912979527891
+
+
+6)FIND_WORDS.PY
+
+Reading from holy_grail.txt
+Read 72570 lines from file --->> holy_grail.txt 
+
+saved 11271 words in file --->> holy_grail_Copy.txt
+
+Reading from eng_new_100k-sentences.text
+
+Read 12395517 lines from file ---> eng_news_100K-sentences.txt
+
+saved 1860387 words in file --->> eng_news_100K-sentences.txt
+
+
+8) COUNT_NUMBERS.PY
+
+different A:  424
+Top 5 numbers that occurred in file A:
+Numbers:        Occurrences:
+238             76
+260             72
+240             71
+217             70
+252             69
+
+different B:  584
+Top 5 numbers that occurred in file B:
+Numbers:        Occurrences:
+22              62
+35              53
+37              51
+-12             50
+23              49
+
+
+11) MultiDisplayMain.PY
+
+Message: Hello World!, Count: 3
+Hello World!
+Hello World!
+Hello World!
+Goodbye cruel world!
+Goodbye cruel world!
+Message: Goodbye cruel world!, Count: 2
+Current message: Goodbye cruel world!
+
+
+12) DEQUE_MAIN.PY
+
+{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+Size: 10
+{ 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+Size: 20
+
+get_last(): 10
+You can't access an empty queue
+get_last() on empty deque: None
+
+get_first(): 20
+You can't access an empty queue
+get_first() on empty deque: None
+
+remove_first(): 20
+You can't access an empty queue
+remove_first() on empty deque: None
+
+remove_last(): 10
+You can't access an empty queue
+remove_last() on empty deque: None
+{ 19, 18, 17, 16, 15, 14, 13, 12, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
+Size: 18
+
+Test to remove all elements
+After adding elements: { 105, 104, 103, 102, 101, 100 }
+After removing all elements: {  }
+Size: 0
